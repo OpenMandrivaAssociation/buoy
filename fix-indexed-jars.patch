@@ -1,0 +1,13 @@
+--- buoy.xml.orig	2007-10-29 03:13:30.000000000 +0100
++++ buoy.xml	2010-02-13 03:50:38.000000000 +0100
+@@ -24,8 +24,8 @@
+ 
+   <target name="dist" depends="compile">
+     <!-- Copy all necessary files into ${build}, then create the jar file -->
+-    <jar jarfile="${dist}/Buoy.jar" basedir="${build}" includes="buoy/**"/>
+-    <jar jarfile="${dist}/Buoyx.jar" basedir="${build}" includes="buoyx/**"/>
++    <jar jarfile="${dist}/Buoy.jar" index="true" basedir="${build}" includes="buoy/**"/>
++    <jar jarfile="${dist}/Buoyx.jar" index="true" basedir="${build}" includes="buoyx/**"/>
+   </target>
+ 
+   <target name="docs" depends="init">

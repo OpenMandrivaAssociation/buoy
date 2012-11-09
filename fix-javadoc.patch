@@ -1,0 +1,11 @@
+--- buoy.xml
++++ buoy.xml	2010-02-13 04:10:16.000000000 +0100
+@@ -29,7 +29,7 @@
+   </target>
+ 
+   <target name="docs" depends="init">
+-    <javadoc packagenames="buoy.*"
++    <javadoc packagenames="buoy.*,buoyx.*"
+         sourcepath="${src}"
+         defaultexcludes="yes"
+         destdir="${docs}"
