@@ -93,3 +93,18 @@ ln -s %{name}-%{version} $RPM_BUILD_ROOT%_javadocdir/%{name}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.9-2mdv2011.0
++ Revision: 610086
+- rebuild
+
+* Sun Feb 14 2010 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.9-1mdv2010.1
++ Revision: 505951
+- import buoy
+
+
+* Fri Feb 12 2010 Jonathan Bayle <hide@mrhide.fr> 1.9-1mdv2010.0
+ - new package
+
