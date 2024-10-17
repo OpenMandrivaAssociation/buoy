@@ -7,7 +7,7 @@ Version:        %{version}
 Release:        %{release}
 
 Summary:        A toolkit for creating user interfaces in Java programs
-URL:            http://buoy.sourceforge.net/
+URL:            https://buoy.sourceforge.net/
 Group:          Development/Java
 
 Source0:        Buoy%{version}.zip
